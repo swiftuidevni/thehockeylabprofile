@@ -20,8 +20,8 @@ struct HomeView : View
 }
 
 struct ContentView: View {
-    @State var showingPopover = false
-    var body: some View {
+     var body: some View {
+         GeometryReader { geometry in
         TabView{
             HomeView()                .tabItem {
                     Image(systemName: "house")
@@ -35,13 +35,15 @@ struct ContentView: View {
                     Text("Profile")
                     
                 }
-            
+            ZStack {
             StatsView()
                 .tabItem {
                     Image(systemName: "plus").renderingMode(.original).padding()
                     Text("Plus")
                     
                 }
+            }  
+
             
             StatsView()
                 .tabItem {
@@ -57,8 +59,12 @@ struct ContentView: View {
                     
                 }
         }
-    }
-}
+    }.safeAreaInset(edge: .bottom, alignment: .center, spacing: 0) {
+        Color.clear
+            .frame(height: 20)
+            .background(Material.bar)
+     }
+     }}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
