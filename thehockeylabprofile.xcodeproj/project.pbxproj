@@ -11,6 +11,10 @@
 		037D065B28CAD80100ADCC4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D065A28CAD80100ADCC4F /* ContentView.swift */; };
 		037D065D28CAD80600ADCC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037D065C28CAD80600ADCC4F /* Assets.xcassets */; };
 		037D066028CAD80600ADCC4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037D065F28CAD80600ADCC4F /* Preview Assets.xcassets */; };
+		037D066728CADC4A00ADCC4F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066628CADC4A00ADCC4F /* ProfileView.swift */; };
+		037D066928CADCAD00ADCC4F /* LeaderBoardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066828CADCAD00ADCC4F /* LeaderBoardsView.swift */; };
+		037D066C28CADCD100ADCC4F /* AddChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066B28CADCD100ADCC4F /* AddChildView.swift */; };
+		037D066E28CADD0300ADCC4F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066D28CADD0300ADCC4F /* StatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		037D065A28CAD80100ADCC4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		037D065C28CAD80600ADCC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		037D065F28CAD80600ADCC4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		037D066628CADC4A00ADCC4F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		037D066828CADCAD00ADCC4F /* LeaderBoardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardsView.swift; sourceTree = "<group>"; };
+		037D066B28CADCD100ADCC4F /* AddChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildView.swift; sourceTree = "<group>"; };
+		037D066D28CADD0300ADCC4F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,16 @@
 		037D065728CAD80100ADCC4F /* thehockeylabprofile */ = {
 			isa = PBXGroup;
 			children = (
+				037D066F28CAE64900ADCC4F /* Models */,
+				037D066A28CADCB500ADCC4F /* New Group */,
 				037D065828CAD80100ADCC4F /* thehockeylabprofileApp.swift */,
 				037D065A28CAD80100ADCC4F /* ContentView.swift */,
 				037D065C28CAD80600ADCC4F /* Assets.xcassets */,
 				037D065E28CAD80600ADCC4F /* Preview Content */,
+				037D066628CADC4A00ADCC4F /* ProfileView.swift */,
+				037D066828CADCAD00ADCC4F /* LeaderBoardsView.swift */,
+				037D066B28CADCD100ADCC4F /* AddChildView.swift */,
+				037D066D28CADD0300ADCC4F /* StatsView.swift */,
 			);
 			path = thehockeylabprofile;
 			sourceTree = "<group>";
@@ -65,6 +79,20 @@
 				037D065F28CAD80600ADCC4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		037D066A28CADCB500ADCC4F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		037D066F28CAE64900ADCC4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037D066C28CADCD100ADCC4F /* AddChildView.swift in Sources */,
+				037D066928CADCAD00ADCC4F /* LeaderBoardsView.swift in Sources */,
+				037D066E28CADD0300ADCC4F /* StatsView.swift in Sources */,
 				037D065B28CAD80100ADCC4F /* ContentView.swift in Sources */,
+				037D066728CADC4A00ADCC4F /* ProfileView.swift in Sources */,
 				037D065928CAD80100ADCC4F /* thehockeylabprofileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
