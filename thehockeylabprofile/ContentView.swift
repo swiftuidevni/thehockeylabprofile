@@ -28,8 +28,9 @@ struct ContentView: View {
                     Text("Home")
                     
                 }
-                
-            ProfileView()
+			 
+				ProfileView()
+			 
                 .tabItem {
                     Image(systemName: "person.circle.fill")
                     Text("Profile")

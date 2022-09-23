@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034CA2C428CBF28200D81038 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 034CA2C328CBF28200D81038 /* Alamofire */; };
+		034CA2C628CBF29D00D81038 /* thehockeylabapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034CA2C528CBF29D00D81038 /* thehockeylabapi.swift */; };
 		037D065928CAD80100ADCC4F /* thehockeylabprofileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D065828CAD80100ADCC4F /* thehockeylabprofileApp.swift */; };
 		037D065B28CAD80100ADCC4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D065A28CAD80100ADCC4F /* ContentView.swift */; };
 		037D065D28CAD80600ADCC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037D065C28CAD80600ADCC4F /* Assets.xcassets */; };
@@ -15,9 +17,11 @@
 		037D066928CADCAD00ADCC4F /* LeaderBoardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066828CADCAD00ADCC4F /* LeaderBoardsView.swift */; };
 		037D066C28CADCD100ADCC4F /* AddChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066B28CADCD100ADCC4F /* AddChildView.swift */; };
 		037D066E28CADD0300ADCC4F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066D28CADD0300ADCC4F /* StatsView.swift */; };
+		0383493B28CD636E0054CEBD /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0383493A28CD636E0054CEBD /* ProductCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		034CA2C528CBF29D00D81038 /* thehockeylabapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thehockeylabapi.swift; sourceTree = "<group>"; };
 		037D065528CAD80100ADCC4F /* thehockeylabprofile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thehockeylabprofile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		037D065828CAD80100ADCC4F /* thehockeylabprofileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thehockeylabprofileApp.swift; sourceTree = "<group>"; };
 		037D065A28CAD80100ADCC4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +31,7 @@
 		037D066828CADCAD00ADCC4F /* LeaderBoardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardsView.swift; sourceTree = "<group>"; };
 		037D066B28CADCD100ADCC4F /* AddChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildView.swift; sourceTree = "<group>"; };
 		037D066D28CADD0300ADCC4F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		0383493A28CD636E0054CEBD /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034CA2C428CBF28200D81038 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +75,8 @@
 				037D066828CADCAD00ADCC4F /* LeaderBoardsView.swift */,
 				037D066B28CADCD100ADCC4F /* AddChildView.swift */,
 				037D066D28CADD0300ADCC4F /* StatsView.swift */,
+				034CA2C528CBF29D00D81038 /* thehockeylabapi.swift */,
+				0383493A28CD636E0054CEBD /* ProductCardView.swift */,
 			);
 			path = thehockeylabprofile;
 			sourceTree = "<group>";
@@ -111,6 +119,9 @@
 			dependencies = (
 			);
 			name = thehockeylabprofile;
+			packageProductDependencies = (
+				034CA2C328CBF28200D81038 /* Alamofire */,
+			);
 			productName = thehockeylabprofile;
 			productReference = 037D065528CAD80100ADCC4F /* thehockeylabprofile.app */;
 			productType = "com.apple.product-type.application";
@@ -139,6 +150,9 @@
 				Base,
 			);
 			mainGroup = 037D064C28CAD80100ADCC4F;
+			packageReferences = (
+				034CA2C228CBF28200D81038 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 037D065628CAD80100ADCC4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,9 +181,11 @@
 			files = (
 				037D066C28CADCD100ADCC4F /* AddChildView.swift in Sources */,
 				037D066928CADCAD00ADCC4F /* LeaderBoardsView.swift in Sources */,
+				034CA2C628CBF29D00D81038 /* thehockeylabapi.swift in Sources */,
 				037D066E28CADD0300ADCC4F /* StatsView.swift in Sources */,
 				037D065B28CAD80100ADCC4F /* ContentView.swift in Sources */,
 				037D066728CADC4A00ADCC4F /* ProfileView.swift in Sources */,
+				0383493B28CD636E0054CEBD /* ProductCardView.swift in Sources */,
 				037D065928CAD80100ADCC4F /* thehockeylabprofileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +387,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		034CA2C228CBF28200D81038 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		034CA2C328CBF28200D81038 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 034CA2C228CBF28200D81038 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 037D064D28CAD80100ADCC4F /* Project object */;
 }
