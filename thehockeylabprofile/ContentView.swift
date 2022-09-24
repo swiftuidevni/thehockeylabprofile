@@ -21,8 +21,7 @@ struct HomeView : View
 
 struct ContentView: View {
      var body: some View {
-         GeometryReader { geometry in
-        TabView{
+		 NavigationView{        TabView{
             HomeView()                .tabItem {
                     Image(systemName: "house")
                     Text("Home")
@@ -65,7 +64,7 @@ struct ContentView: View {
             .frame(height: 20)
             .background(Material.bar)
      }
-     }}
+	 }}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

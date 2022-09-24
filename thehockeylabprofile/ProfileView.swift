@@ -9,6 +9,7 @@ import SwiftUI
  struct ProfileView : View
 {
 	 var body: some View {
+
 		 VStack{
 			 VStack {
 				 Group
@@ -36,9 +37,11 @@ import SwiftUI
 						 
 						 Button(action: {}) {
 							 Text("Add Player")
-						 }
-						 .foregroundColor(.white)
-						 .background(Color.red)				 }
+						 }.frame(width: 137, height: 47)
+						 .foregroundColor(Color.black)
+						 .background(Color.white)
+						 .cornerRadius(5)
+ 					 }
 				 }
 				 
 				 

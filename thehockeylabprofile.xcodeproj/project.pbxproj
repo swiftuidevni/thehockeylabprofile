@@ -18,6 +18,7 @@
 		037D066C28CADCD100ADCC4F /* AddChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066B28CADCD100ADCC4F /* AddChildView.swift */; };
 		037D066E28CADD0300ADCC4F /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D066D28CADD0300ADCC4F /* StatsView.swift */; };
 		0383493B28CD636E0054CEBD /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0383493A28CD636E0054CEBD /* ProductCardView.swift */; };
+		03A5469C28DF12D700A82405 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A5469B28DF12D700A82405 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		037D066B28CADCD100ADCC4F /* AddChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildView.swift; sourceTree = "<group>"; };
 		037D066D28CADD0300ADCC4F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		0383493A28CD636E0054CEBD /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		03A5469B28DF12D700A82405 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				037D066D28CADD0300ADCC4F /* StatsView.swift */,
 				034CA2C528CBF29D00D81038 /* thehockeylabapi.swift */,
 				0383493A28CD636E0054CEBD /* ProductCardView.swift */,
+				03A5469B28DF12D700A82405 /* Helpers.swift */,
 			);
 			path = thehockeylabprofile;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				037D066928CADCAD00ADCC4F /* LeaderBoardsView.swift in Sources */,
 				034CA2C628CBF29D00D81038 /* thehockeylabapi.swift in Sources */,
 				037D066E28CADD0300ADCC4F /* StatsView.swift in Sources */,
+				03A5469C28DF12D700A82405 /* Helpers.swift in Sources */,
 				037D065B28CAD80100ADCC4F /* ContentView.swift in Sources */,
 				037D066728CADC4A00ADCC4F /* ProfileView.swift in Sources */,
 				0383493B28CD636E0054CEBD /* ProductCardView.swift in Sources */,
