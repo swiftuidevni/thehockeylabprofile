@@ -21,7 +21,7 @@ import SwiftUI
 							 Text("Player One")
 							 Text("Parent Profile")
 						 }
-						
+						 
 						 
 					 }
 					 HStack{
@@ -33,28 +33,36 @@ import SwiftUI
 						 VStack{
 							 Text("10")
 							 Text("followers")
-						 }.padding(.leading, 30)	
+						 }.padding(.leading, 30)
 						 
 						 Button(action: {}) {
 							 Text("Add Player")
 						 }.frame(width: 137, height: 47)
-						 .foregroundColor(Color.black)
-						 .background(Color.white)
-						 .cornerRadius(5)
- 					 }
+							 .foregroundColor(Color.black)
+							 .background(Color.white)
+							 .cornerRadius(5)
+						 
+					 }
 				 }
 				 
 				 
 				 // This should be the last, put everything to the top
 				 Spacer()
+				 
+				 
 			 }.frame(width: 500, height: 200)
 				 .padding()
 				 .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.5481430292, green: 0, blue: 0.4720868468, alpha: 1)), Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
 				 .cornerRadius(10)
 			 
 				 .navigationBarTitle(Text("The Title"), displayMode: .inline)
-			 
-			 
+				
+			 Text("Test test")
+			 RankingsView(rankings: PlayerRankingViewModel.sampleData)
+		 }
+		 
+		
+			
 			 //	 func callApi()
 			 //	 {
 			 //		 let api  = thehockeylabapi().self
@@ -62,7 +70,10 @@ import SwiftUI
 			 //		 let test: () = api.getFriends()
 			 //		 }
 			 
-		 }   .position(CGPoint(x: 150, y: 100))	 }
+		// }   .position(CGPoint(x: 150, y: 100))
+		 
+		
+	 }
 			 
 			 
 			 struct ProfileView_Previews: PreviewProvider {

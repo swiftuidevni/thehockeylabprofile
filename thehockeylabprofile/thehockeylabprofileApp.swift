@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct thehockeylabprofileApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+		WindowGroup{
+             ContentView()
         }
     }
 }

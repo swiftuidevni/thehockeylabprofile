@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		034CA2C428CBF28200D81038 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 034CA2C328CBF28200D81038 /* Alamofire */; };
 		034CA2C628CBF29D00D81038 /* thehockeylabapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034CA2C528CBF29D00D81038 /* thehockeylabapi.swift */; };
+		0374D26728E393CF0064BF81 /* PlayerRankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0374D26628E393CF0064BF81 /* PlayerRankingViewModel.swift */; };
+		0374D26928E3A3720064BF81 /* RankingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0374D26828E3A3720064BF81 /* RankingsView.swift */; };
+		0374D26B28E3A5320064BF81 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0374D26A28E3A5320064BF81 /* CardView.swift */; };
 		037D065928CAD80100ADCC4F /* thehockeylabprofileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D065828CAD80100ADCC4F /* thehockeylabprofileApp.swift */; };
 		037D065B28CAD80100ADCC4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D065A28CAD80100ADCC4F /* ContentView.swift */; };
 		037D065D28CAD80600ADCC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037D065C28CAD80600ADCC4F /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		034CA2C528CBF29D00D81038 /* thehockeylabapi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thehockeylabapi.swift; sourceTree = "<group>"; };
+		0374D26628E393CF0064BF81 /* PlayerRankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRankingViewModel.swift; sourceTree = "<group>"; };
+		0374D26828E3A3720064BF81 /* RankingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingsView.swift; sourceTree = "<group>"; };
+		0374D26A28E3A5320064BF81 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		037D065528CAD80100ADCC4F /* thehockeylabprofile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thehockeylabprofile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		037D065828CAD80100ADCC4F /* thehockeylabprofileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thehockeylabprofileApp.swift; sourceTree = "<group>"; };
 		037D065A28CAD80100ADCC4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0374D26528E393A70064BF81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0374D26628E393CF0064BF81 /* PlayerRankingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		037D064C28CAD80100ADCC4F = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +81,7 @@
 		037D065728CAD80100ADCC4F /* thehockeylabprofile */ = {
 			isa = PBXGroup;
 			children = (
+				0374D26528E393A70064BF81 /* ViewModel */,
 				037D066F28CAE64900ADCC4F /* Models */,
 				037D066A28CADCB500ADCC4F /* New Group */,
 				037D065828CAD80100ADCC4F /* thehockeylabprofileApp.swift */,
@@ -80,6 +95,8 @@
 				034CA2C528CBF29D00D81038 /* thehockeylabapi.swift */,
 				0383493A28CD636E0054CEBD /* ProductCardView.swift */,
 				03A5469B28DF12D700A82405 /* Helpers.swift */,
+				0374D26828E3A3720064BF81 /* RankingsView.swift */,
+				0374D26A28E3A5320064BF81 /* CardView.swift */,
 			);
 			path = thehockeylabprofile;
 			sourceTree = "<group>";
@@ -185,11 +202,14 @@
 				037D066C28CADCD100ADCC4F /* AddChildView.swift in Sources */,
 				037D066928CADCAD00ADCC4F /* LeaderBoardsView.swift in Sources */,
 				034CA2C628CBF29D00D81038 /* thehockeylabapi.swift in Sources */,
+				0374D26728E393CF0064BF81 /* PlayerRankingViewModel.swift in Sources */,
 				037D066E28CADD0300ADCC4F /* StatsView.swift in Sources */,
 				03A5469C28DF12D700A82405 /* Helpers.swift in Sources */,
 				037D065B28CAD80100ADCC4F /* ContentView.swift in Sources */,
+				0374D26928E3A3720064BF81 /* RankingsView.swift in Sources */,
 				037D066728CADC4A00ADCC4F /* ProfileView.swift in Sources */,
 				0383493B28CD636E0054CEBD /* ProductCardView.swift in Sources */,
+				0374D26B28E3A5320064BF81 /* CardView.swift in Sources */,
 				037D065928CAD80100ADCC4F /* thehockeylabprofileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
