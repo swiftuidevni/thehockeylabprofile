@@ -12,15 +12,17 @@ struct CardView: View {
 
 	var body: some View {
 		VStack(alignment: .leading) {
-			Text(rankings.FirstName)
+			Text("\(rankings.Reps)" as String)
+
 				.font(.headline)
 			Spacer()
 			HStack {
 			 
-				Text("\(rankings.Reps)" as String)
+				Text("\(rankings.Weight)" as String)
+					
 
 								Spacer()
-				Text("\(rankings.Weight)" as String)
+				Text("\(rankings.FirstName)" as String)
 			}
 		}
 	}
