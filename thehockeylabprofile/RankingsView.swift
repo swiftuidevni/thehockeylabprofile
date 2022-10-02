@@ -14,8 +14,7 @@ struct RankingsView: View {
 	var body: some View {
 	
 		List {
-			ForEach(rankings,id:\.FirstName) { ranking in
-				CardView(rankings: ranking)
+			CardView(rankings: rankings)
 			}
 		}
 		
@@ -27,4 +26,4 @@ struct RankingsView_Previews: PreviewProvider {
 			RankingsView(rankings: PlayerRankingViewModel.sampleData)
 			}
     }
-}
+ 

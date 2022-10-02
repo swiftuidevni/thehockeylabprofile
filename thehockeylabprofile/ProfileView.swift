@@ -34,7 +34,7 @@ import SwiftUI
 							 Text("10")
 							 Text("followers")
 						 }.padding(.leading, 30)
-						 
+					 
 						 Button(action: {}) {
 							 Text("Add Player")
 						 }.frame(width: 137, height: 47)
@@ -52,13 +52,14 @@ import SwiftUI
 				 
 			 }.frame(width: 500, height: 200)
 				 .padding()
-				 .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.5481430292, green: 0, blue: 0.4720868468, alpha: 1)), Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
+				 .background(Color.gray.opacity(0.5))
 				 .cornerRadius(10)
 			 
 				 .navigationBarTitle(Text("The Title"), displayMode: .inline)
-				
+				  
 			 Text("Test test")
 			 RankingsView(rankings: PlayerRankingViewModel.sampleData)
+				 .background(Color.gray.opacity(0.5))
 		 }
 		 
 		
